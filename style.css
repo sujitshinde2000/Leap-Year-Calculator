@@ -1,0 +1,63 @@
+body{
+    height: 100vh;
+    margin: 0px;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display_box{
+    border: 7px solid rgb(221, 141, 20);
+    border-radius: 10px;
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+h4{
+    text-align: center;
+    background-color: antiquewhite;
+    margin: 7px;
+    padding: 3px;
+}
+
+input{
+    padding: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+#input_year{
+    width: 80%;
+}
+
+#btn{
+    background-color: green;
+    color: white;
+    width: 20%;
+   
+}
+
+#btn:hover{
+    cursor: pointer;
+    background-color: rgb(24, 196, 24);
+}
+
+.input_box{
+    display: flex;
+}
+
+#output_box{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:aquamarine ;
+    color: rgb(206, 8, 8);
+    font-size: large;
+}
